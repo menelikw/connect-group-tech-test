@@ -1,0 +1,38 @@
+.product-details {
+    max-width: 470px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.product-details img {
+    width: 100%;
+}
+
+.product-details h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.product-meta {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.product-meta li {
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    display: flex;
+}
+
+.product-meta li:last-of-type {
+    border-bottom: 0;
+}
+
+.product-meta span {
+    width: 50%
+}
+
+.product-meta span:first-of-type {
+    font-weight: bold;
+}
