@@ -13,6 +13,6 @@
 Run ```yarn```
 
 ### Running
-APP UI run: ```yarn workspace @connect-group/api start```
-API run ```yarn workspace @connect-group/api start```
+- APP UI run: ```yarn workspace @connect-group/api start```
+- API run ```yarn workspace @connect-group/api start```
 Graphiql playground will be available at: http://localhost:4000 for testing queries
