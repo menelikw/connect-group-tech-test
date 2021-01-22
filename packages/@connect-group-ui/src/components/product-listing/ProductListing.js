@@ -23,7 +23,7 @@ export const ProductListing = () => {
     return (
         <div className={'product-listing'}>
             {data.vehicles.map(vehicle => (
-                <ProductItem {...vehicle} />
+                <ProductItem key={vehicle.id} {...vehicle} />
             ))}
         </div>
     );

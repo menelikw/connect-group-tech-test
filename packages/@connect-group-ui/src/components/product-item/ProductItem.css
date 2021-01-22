@@ -40,8 +40,13 @@
     border-top: 1px solid;
     border-bottom: 1px solid;
     padding: 5px 0;
+    transition: padding 250ms 150ms;
     text-transform: uppercase;
     display: inline-block;
+}
+
+.product-item:hover .product-title {
+    padding: 5px 10px;
 }
 
 .product-content .product-price {
@@ -87,7 +92,7 @@
 
     .product-title {
         border: 0;
-        padding: 0;
+        padding: 0!important;
         display: block;
         margin: 0;
         font-size: 1.2rem;

@@ -19,10 +19,10 @@ function App() {
       <ApolloProvider client={client}>
           <Router>
               <Switch>
-                  <Route path="/product/:productId">
+                  <Route path="/product/:productId" exact={true}>
                       <ProductDetails />
                   </Route>
-                  <Route path="/">
+                  <Route path="/" exact={true}>
                       <ProductListing />
                   </Route>
               </Switch>
